@@ -1,0 +1,4 @@
+{
+  "cef6158841d09acabcff77a150c80a7d9ff9eca1": "query GetCartById($id: ID!) { cart(id: $id) { id items { id name quantity unitTotal { formatted } } totalItems totalUniqueItems } }",
+  "b8acb020a7364c18ba3c3ff2da9c427cb886f6af": "mutation AddItemToCart($cartId: ID!, $id: ID!, $name: String!, $price: Int!) { addItem(input: {cartId: $cartId, id: $id, name: $name, price: $price}) { id subTotal { amount formatted } } }"
+}

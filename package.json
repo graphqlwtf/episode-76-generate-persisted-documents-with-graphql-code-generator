@@ -1,0 +1,15 @@
+{
+  "name": "episode-76",
+  "private": true,
+  "scripts": {
+    "codegen": "graphql-codegen --watch"
+  },
+  "dependencies": {
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^3.0.0",
+    "@graphql-codegen/client-preset": "^2.0.0",
+    "typescript": "^4.9.5"
+  }
+}
